@@ -7,4 +7,4 @@ class Organizador(models.Model):
     cnjp = models.CharField(max_length=14)
 
     def __srt__(self):
-        return self.nome + self.sobrenome
+        return self.nome

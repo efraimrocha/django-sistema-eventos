@@ -1,6 +1,7 @@
 from django.urls import path
+from .views import ParticipanteListView
 
 urlpatterns = [
-    path('', name='participante'),
+    path('', ParticipanteListView.as_view(),  name='participante'),
     
 ]
